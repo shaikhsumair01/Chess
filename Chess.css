@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 4rem;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 80vh;
+    background-image: linear-gradient(#892201 ,#000, #df8402) ;
+}
+.black_square,.white_square{
+    height: 100px;
+    width: 100px;
+}
+
+.black_square{
+    background-color: #6e5848;
+}
+.white_square{
+    background-color: #e6d5cc;
+}
